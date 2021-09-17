@@ -7,6 +7,10 @@
    Turns on LEDS when holding down the corresponding button
 
    Uses interupts to trigger the LED state change
+   
+   Run using "python3 hw02.py"
+   
+   Video for demo
     
 ## Speed Questions
 1.)	3.7 V    -130 mV
@@ -74,4 +78,6 @@
    
    Added border as well
    
-   Run program using ./EtchSketch.py and enter dimesions to begin etching
+   Run program using "python 3 EtchSketch.py" and enter dimesions to begin etching
+   
+   Watch video demo

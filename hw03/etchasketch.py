@@ -18,6 +18,9 @@ bus.write_byte_data(matrix, 0xe7, 0)   # Full brightness (page 15)
 leds = [0x00, 0x0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
 
+sone = "P9_14"
+GPIO.setup(sone, GPIO.IN)
+
 
 print("BeagleBone")
 
@@ -45,9 +48,22 @@ def reprintled():
                 leds[2*j + 1] = leds[2*j + 1] | (0b00000001 << i) #SHIFTS TO RIGHT COLUMN AND ADJUSTS BITS FOR COLOR
                 bus.write_i2c_block_data(matrix, 0, leds)
                 #print("Row: ", i, "Col: ", j, "VALUE OF COL: ", end='')
-                print(hex(leds[2*j + 1]))
+                #print(hex(leds[2*j + 1]))
 
 
+def eventone (channel):
+    global leds
+    for i in range(len(arr)):
+        for j in range(len(arr[i])):
+            arr[i][j] = False
+            #print(arr[i][j], end='')
+        #print()
+    leds = [0x00, 0x0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+    
+    time.sleep(1)
+    addMark()
+    #print("BUTTON")
     
 def addMark():
     arr[yloc][xloc] = "True"
@@ -92,6 +108,7 @@ def rotup():
 
 reprintled()
 
+GPIO.add_event_detect(sone, GPIO.RISING, callback=eventone, bouncetime = 50)    
 
 #ROTARY ENCODER SETUP 
 myEncoder1 = RotaryEncoder(eQEP1)

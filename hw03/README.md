@@ -9,13 +9,13 @@ Use sudo python3 etchasketch.py to run
 
 Control the led matrix using two rotary encoders
 
-Left encoder: 
+### Left encoder: 
               
               clockwise -> right
 
               counterclockwise -> left
               
-Right encoder: 
+### Right encoder: 
                
                clockwise -> up
 

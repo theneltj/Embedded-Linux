@@ -25,3 +25,14 @@ Control the led matrix using two rotary encoders
                
 Use push button to clear display and keep drawing 
                
+# hw03 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  5/5 | TMP101 
+|  3/3 |   | setup.sh
+|  2/2 |   | Documentation 
+|  5/5 | Etch-a-Sketch
+|  3/3 |   | setup.sh
+|  2/2 |   | Documentation
+| 20/20 | **Total**

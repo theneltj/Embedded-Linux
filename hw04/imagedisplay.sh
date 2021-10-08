@@ -1,0 +1,1 @@
+sudo fbi -noverbose -T 1 dog.jpg

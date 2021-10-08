@@ -16,7 +16,7 @@ Use sudo bash txtdisplay.sh to display text
 
 Use sudo bash imagewithtext.sh to image and text
 
-## Etch A Sketch Game (Rotary Encoders)
+## Etch A Sketch Game Flask
 Use sudo python3 etchasketch.py to run etchasketch
 
 Open 192.168.7.2:8090 to control the 8x8 matrix

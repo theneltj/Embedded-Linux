@@ -20,11 +20,13 @@ Once I have permission I can make these changes
 
 | Points      | Description |
 | ----------- | ----------- |
-|  0 | Etch-a-Sketch works (doesn't work)
-|  0 | Code documented
-|  0 | Includes #!/usr/bin/env python3 and chmod +x
+|  8 | Etch-a-Sketch works 
+|  2 | Code documented
+|  2 | Includes #!/usr/bin/env python3 and chmod +x
 |  2 | install.sh included if needed
 |  2 | Used hw01 directory
-|  0 | ReadMe.md included (Doesn't explain how to use it)
+|  2 | ReadMe.md included 
 |  0 | Name in gitLearn and gitLearnFork
-|  4 | **Total**
+|  16/20 | **Total**
+
+-2 Late

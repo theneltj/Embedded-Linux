@@ -35,3 +35,18 @@ The histogram runs until 500 us
 The RT Kernel has a bounded latency because it is injecting threads to shorten the latency bound
 
 We are using a makefile as a load by continuously making and cleaning
+
+# hw06 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  2/2 | Project 
+|  3/5 | Questions | *Answers need more details*
+|  4/4 | PREEMPT_RT
+|  2/2 | Plots to 500 us
+|  2/5 | Plots - Heavy/Light load | *They are the same plot*
+|  2/2 | Extras
+|15/20 | **Total**
+
+*My comments are in italics. --may*
+

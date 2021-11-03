@@ -22,3 +22,19 @@ Use sudo python3 etchasketch.py to run etchasketch
 Open 192.168.7.2:8090 to control the 8x8 matrix
                
 Use push button to clear display and keep drawing 
+
+# hw04 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  0/2 | Memory map 
+|  4/4 | mmap()
+|  4/4 | i2c via Kernel
+|  5/5 | Etch-a-Sketch via flask
+|  5/5 | LCD display
+|      | Extras
+| 18/20 | **Total**
+-2, Late
+
+*My comments are in italics. --may*
+

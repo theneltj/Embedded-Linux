@@ -25,6 +25,8 @@ Then run with
 ```
 sudo make TARGET=PRUPWM.pru
 ```
+See the file PRUPWM.png to see the waveform.
+
 1. The PRU PWM is not stable and the waveform has a large percent overshoot.
 2. The standard deviation is about 20 MHz
 3. The waveform doesnt have as much jitter as the gpio pin but is much more smooth with the overshoot

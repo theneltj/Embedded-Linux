@@ -30,3 +30,9 @@ See the file PRUPWM.png to see the waveform.
 1. The PRU PWM is not stable and the waveform has a large percent overshoot.
 2. The standard deviation is about 20 MHz
 3. The waveform doesnt have as much jitter as the gpio pin but is much more smooth with the overshoot
+
+## Table of Results
+|      | Freq (MHz) | Std Dev  | Jitter? | Stable? | Max Freq |
+|------|------------|----------|---------|---------|----------|
+| GPIO | 1.67       | 1.97 kHz | High    | Yes     | 1.67 MHz |
+| PRU  | 50.64      | 20.0 MHz | Medium  | No      | 70 MHz   |

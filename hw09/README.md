@@ -5,14 +5,14 @@ Run this for set up:
 sudo bash setup.sh
 ```
 
-## Readng Temperature with Python
+## 1 Readng Temperature with Python
 Run this to begin reading temperatures:
 ```
 ./temp.py
 ```
 The screen will display the three temp sensors and the temps in millidegrees C
 
-## Reading Temperature and Logging to Sheets
+## 2 Reading Temperature and Logging to Sheets
 Run this to start logging temps to sheets
 ```
 ./templogged.py
@@ -21,6 +21,6 @@ You will see temperatures logged in millidegrees C every 8 seconds
 
 URL: https://docs.google.com/spreadsheets/d/1WwJ40CK51Z9ahyUNzg0gX8EhmxmfniMpKz7HkDoyYk8/edit?usp=sharing
 
-Plot of the data:
+### Plot of the data:
 
 ![alt text](https://github.com/theneltj/Embedded-Linux/blob/master/hw09/TempLog.png?raw=true)

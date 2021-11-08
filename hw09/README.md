@@ -22,4 +22,5 @@ You will see temperatures logged in millidegrees C every 8 seconds
 URL: https://docs.google.com/spreadsheets/d/1WwJ40CK51Z9ahyUNzg0gX8EhmxmfniMpKz7HkDoyYk8/edit?usp=sharing
 
 Plot of the data:
+
 ![alt text](https://github.com/theneltj/Embedded-Linux/blob/master/hw09/TempLog.png?raw=true)

@@ -36,3 +36,17 @@ See the file PRUPWM.png to see the waveform.
 |------|------------|----------|---------|---------|----------|
 | GPIO | 1.67       | 1.97 kHz | High    | Yes     | 1.67 MHz |
 | PRU  | 50.64      | 20.0 MHz | Medium  | No      | 70 MHz   |
+
+*The PRU output should be very stable.*
+
+# hw08 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+| 14/14 | PRU
+|  0/2 | Controlling the PWM Frequency - optional
+|  0/2 | Reading an Input at Regular Intervals - optional
+|  0/2 | Analog Wave Generator - optional
+| 14/20 | **Total**
+
+*My comments are in italics. --may*
